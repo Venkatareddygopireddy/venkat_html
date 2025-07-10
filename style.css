@@ -1,0 +1,28 @@
+*{
+    margin: 10px;
+    padding: 0;
+    font-size:larger;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+  .title{
+    color: firebrick;
+    background-color: black;
+    width: 400px;
+  }
+  .container{
+    border:8px solid black;
+    display: flex;
+  } 
+  .container ,ul{
+    justify-content: space-evenly;
+    gap: 20px;
+    list-style: none;
+
+  }
+  .container  ul li{
+    border: 1px solid rgb(235, 9, 9);
+    background-color: chocolate;
+    color: rgb(70, 6, 247);
+  }
+  
